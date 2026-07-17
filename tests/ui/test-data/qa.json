@@ -1,0 +1,11 @@
+{
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "username": "Admin",
+  "password": "admin123",
+  "invalidUsername": "InvalidUser123",
+  "invalidPassword": "WrongPassword123",
+  "urlTest":"https://testautomationpractice.blogspot.com/",
+  "mandatoryFieldError":"Required",
+  "invalidCredentialsError":"Invalid credentials"
+}
+
