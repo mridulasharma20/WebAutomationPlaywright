@@ -41,7 +41,7 @@ jobs:
           PLAYWRIGHT_SERVICE_URL: ${{ vars.PLAYWRIGHT_SERVICE_URL }}
         run: |
           npx playwright test \
-            --config=playwright.service.config.js \
+            --config=playwright.service.config.ts \
             --workers=1 \
             --shard=${{ matrix.shard }}/4
 
