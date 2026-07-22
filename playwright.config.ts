@@ -26,9 +26,10 @@ export default defineConfig({
 
   reporter: [
     ['html'],
+    ['blob'],
     ['json', { outputFile: 'test-results/results.json' }],
     ['junit', { outputFile: 'test-results/junit.xml' }],
-    ['allure-playwright'],
+    ['allure-playwright', { outputFolder: 'allure-results' }],
   ],
 
   use: {
